@@ -1,6 +1,6 @@
 // Service Worker - 網路優先策略
 // 升級版號可強制清掉舊快取（v2 之後修正了範本彈窗無法關閉的問題）
-const CACHE = 'duskin-quote-v3';
+const CACHE = 'duskin-quote-v4';
 const ASSETS = [
   './',
   'index.html',

@@ -80,6 +80,37 @@ function setDefaultDate() {
 // ============================================================
 // 事件繫結
 // ============================================================
+// 全域 modal 開關（事件委派，超穩）
+function openModal(id) {
+  const m = document.getElementById(id);
+  if (m) m.classList.add('is-open');
+}
+function closeModal(id) {
+  const m = document.getElementById(id);
+  if (m) m.classList.remove('is-open');
+}
+function closeAllModals() {
+  document.querySelectorAll('.modal.is-open').forEach(m => m.classList.remove('is-open'));
+}
+
+document.addEventListener('click', (e) => {
+  // 任何帶 data-close-modal="xxx" 的元素被點 → 關閉那個 modal
+  const closeTarget = e.target.closest('[data-close-modal]');
+  if (closeTarget) {
+    closeModal(closeTarget.dataset.closeModal);
+    return;
+  }
+  // 點到 modal 背景（自身）關閉
+  if (e.target.classList && e.target.classList.contains('modal') &&
+      e.target.hasAttribute('data-modal-backdrop')) {
+    e.target.classList.remove('is-open');
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeAllModals();
+});
+
 function bindEvents() {
   // 客戶資料 / 全域設定
   bindInput('client');
@@ -109,25 +140,8 @@ function bindEvents() {
   document.getElementById('btn-load').addEventListener('click', onLoadTemplate);
   document.getElementById('btn-clear').addEventListener('click', onClear);
 
-  document.getElementById('modal-close').addEventListener('click', closeProductModal);
   document.getElementById('product-search').addEventListener('input', renderProductList);
-  document.getElementById('product-modal').addEventListener('click', (e) => {
-    if (e.target.id === 'product-modal') closeProductModal();
-  });
-
-  document.getElementById('template-close').addEventListener('click', closeTemplateModal);
-  document.getElementById('template-close-bottom').addEventListener('click', closeTemplateModal);
-  document.getElementById('template-modal').addEventListener('click', (e) => {
-    if (e.target.id === 'template-modal') closeTemplateModal();
-  });
-
-  // ESC 鍵關閉彈窗
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      closeProductModal();
-      closeTemplateModal();
-    }
-  });
+  // modal 關閉統一由全域委派處理（data-close-modal / 點背景 / ESC）
 }
 
 function bindInput(id, statePath) {
@@ -386,11 +400,11 @@ function openProductModal(item) {
   modalContext = item;
   document.getElementById('product-search').value = '';
   renderProductList();
-  document.getElementById('product-modal').hidden = false;
+  openModal('product-modal');
 }
 
 function closeProductModal() {
-  document.getElementById('product-modal').hidden = true;
+  closeModal('product-modal');
   modalContext = null;
 }
 
@@ -522,11 +536,11 @@ function onLoadTemplate() {
       list.appendChild(row);
     }
   }
-  document.getElementById('template-modal').hidden = false;
+  openModal('template-modal');
 }
 
 function closeTemplateModal() {
-  document.getElementById('template-modal').hidden = true;
+  closeModal('template-modal');
 }
 
 function onClear() {

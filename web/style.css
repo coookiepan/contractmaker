@@ -361,9 +361,13 @@ button {
   inset: 0;
   background: rgba(0,0,0,0.5);
   z-index: 100;
-  display: flex;
+  display: none;
   align-items: flex-end;
   justify-content: center;
+}
+
+.modal.is-open {
+  display: flex;
 }
 
 .modal-content {

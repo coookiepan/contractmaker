@@ -99,11 +99,11 @@
 </main>
 
 <!-- 商品選擇彈窗 -->
-<div id="product-modal" class="modal" hidden>
+<div id="product-modal" class="modal" data-modal-backdrop>
   <div class="modal-content">
     <header class="modal-header">
       <h2>選擇商品</h2>
-      <button type="button" id="modal-close" class="btn-ghost" aria-label="關閉">✕</button>
+      <button type="button" id="modal-close" class="btn-ghost" data-close-modal="product-modal" aria-label="關閉">✕</button>
     </header>
     <input type="search" id="product-search" placeholder="搜尋商品名稱 / 代號 ..." autocomplete="off">
     <div id="product-list" class="product-list"></div>
@@ -111,14 +111,14 @@
 </div>
 
 <!-- 範本選單 -->
-<div id="template-modal" class="modal" hidden>
+<div id="template-modal" class="modal" data-modal-backdrop>
   <div class="modal-content">
     <header class="modal-header">
       <h2>讀取已儲存範本</h2>
-      <button type="button" id="template-close" class="btn-ghost" aria-label="關閉">✕</button>
+      <button type="button" id="template-close" class="btn-ghost" data-close-modal="template-modal" aria-label="關閉">✕</button>
     </header>
     <div id="template-list" class="template-list"></div>
-    <button type="button" id="template-close-bottom" class="btn-secondary">關閉</button>
+    <button type="button" id="template-close-bottom" class="btn-secondary" data-close-modal="template-modal">關閉</button>
   </div>
 </div>
 

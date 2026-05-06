@@ -1,0 +1,15 @@
+{
+  "name": "duskin-quote-engine",
+  "version": "0.2.0",
+  "description": "DUSKIN 商品租賃報價產生器 - 樂清服務股份有限公司",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0"
+  },
+  "author": "潘秉均 (樂清服務股份有限公司 台南營業所)",
+  "license": "MIT"
+}

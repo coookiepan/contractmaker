@@ -1,0 +1,1105 @@
+{
+  "_meta": {
+    "description": "DUSKIN 商品庫",
+    "lastUpdated": "2026/05/06",
+    "priceNote": "price 為「每次更換」單價（含稅）。地墊類 cycle=2W、4W 月金額=price×2；其他 cycle=4W、4W 月金額=price",
+    "totalProducts": 120
+  },
+  "categories": {
+    "mat_welcome": "迎賓系列",
+    "mat_elegant": "雅緻系列",
+    "mat_basic": "Basic 系列",
+    "mat_forever": "Forever 系列",
+    "mat_dust": "吸塵吸水系列",
+    "mat_thin": "薄型吸塵吸水系列",
+    "mat_luxury": "豪華系列",
+    "mat_luxury_2tone": "豪華系列(2色)",
+    "mat_strong": "強力刮砂系列",
+    "mat_metal": "鐵屑油污系列",
+    "mat_gender": "男女辨識系列",
+    "mat_custom": "訂做系列",
+    "fragrance": "芳香劑",
+    "urinal": "小便斗清潔",
+    "mop": "拖把/抹布"
+  },
+  "products": {
+    "LYSR": {
+      "name": "高級迎賓地墊S紅",
+      "category": "mat_welcome",
+      "size": "S",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 200,
+      "discountable": true
+    },
+    "LYLR": {
+      "name": "高級迎賓地墊L紅",
+      "category": "mat_welcome",
+      "size": "L",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 390,
+      "discountable": true
+    },
+    "DECSR": {
+      "name": "歡迎光臨地墊S紅",
+      "category": "mat_welcome",
+      "size": "S",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "DECSLR": {
+      "name": "歡迎光臨地墊SL紅",
+      "category": "mat_welcome",
+      "size": "SL",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 220,
+      "discountable": true
+    },
+    "DECLR": {
+      "name": "歡迎光臨地墊L紅",
+      "category": "mat_welcome",
+      "size": "L",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "DECLLR": {
+      "name": "歡迎光臨地墊LL紅",
+      "category": "mat_welcome",
+      "size": "LL",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 420,
+      "discountable": true
+    },
+    "DECTR": {
+      "name": "歡迎光臨地墊T紅",
+      "category": "mat_welcome",
+      "size": "T",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 720,
+      "discountable": true
+    },
+    "GSH": {
+      "name": "雅緻地墊S灰",
+      "category": "mat_elegant",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 190,
+      "discountable": true
+    },
+    "GSB": {
+      "name": "雅緻地墊S棕",
+      "category": "mat_elegant",
+      "size": "S",
+      "color": "棕",
+      "cycle": "2W",
+      "price": 190,
+      "discountable": true
+    },
+    "GLH": {
+      "name": "雅緻地墊L灰",
+      "category": "mat_elegant",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 360,
+      "discountable": true
+    },
+    "GLB": {
+      "name": "雅緻地墊L棕",
+      "category": "mat_elegant",
+      "size": "L",
+      "color": "棕",
+      "cycle": "2W",
+      "price": 360,
+      "discountable": true
+    },
+    "GLLH": {
+      "name": "雅緻地墊LL灰",
+      "category": "mat_elegant",
+      "size": "LL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 500,
+      "discountable": true
+    },
+    "GLLB": {
+      "name": "雅緻地墊LL棕",
+      "category": "mat_elegant",
+      "size": "LL",
+      "color": "棕",
+      "cycle": "2W",
+      "price": 500,
+      "discountable": true
+    },
+    "GTH": {
+      "name": "雅緻地墊T灰",
+      "category": "mat_elegant",
+      "size": "T",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 900,
+      "discountable": true
+    },
+    "GTB": {
+      "name": "雅緻地墊T棕",
+      "category": "mat_elegant",
+      "size": "T",
+      "color": "棕",
+      "cycle": "2W",
+      "price": 900,
+      "discountable": true
+    },
+    "BSH": {
+      "name": "Basic地墊S灰",
+      "category": "mat_basic",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "BSR": {
+      "name": "Basic地墊S紅",
+      "category": "mat_basic",
+      "size": "S",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "BSLH": {
+      "name": "Basic地墊SL灰",
+      "category": "mat_basic",
+      "size": "SL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 220,
+      "discountable": true
+    },
+    "BSLR": {
+      "name": "Basic地墊SL紅",
+      "category": "mat_basic",
+      "size": "SL",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 220,
+      "discountable": true
+    },
+    "BLH": {
+      "name": "Basic地墊L灰",
+      "category": "mat_basic",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "BLR": {
+      "name": "Basic地墊L紅",
+      "category": "mat_basic",
+      "size": "L",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "BLLH": {
+      "name": "Basic地墊LL灰",
+      "category": "mat_basic",
+      "size": "LL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 420,
+      "discountable": true
+    },
+    "BLLR": {
+      "name": "Basic地墊LL紅",
+      "category": "mat_basic",
+      "size": "LL",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 420,
+      "discountable": true
+    },
+    "BXH": {
+      "name": "Basic地墊X灰",
+      "category": "mat_basic",
+      "size": "X",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 550,
+      "discountable": true
+    },
+    "BXR": {
+      "name": "Basic地墊X紅",
+      "category": "mat_basic",
+      "size": "X",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 550,
+      "discountable": true
+    },
+    "BTH": {
+      "name": "Basic地墊T灰",
+      "category": "mat_basic",
+      "size": "T",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 720,
+      "discountable": true
+    },
+    "BTR": {
+      "name": "Basic地墊T紅",
+      "category": "mat_basic",
+      "size": "T",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 720,
+      "discountable": true
+    },
+    "B3H": {
+      "name": "Basic地墊3M灰",
+      "category": "mat_basic",
+      "size": "3M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 610,
+      "discountable": true
+    },
+    "B3R": {
+      "name": "Basic地墊3M紅",
+      "category": "mat_basic",
+      "size": "3M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 610,
+      "discountable": true
+    },
+    "B5H": {
+      "name": "Basic地墊5M灰",
+      "category": "mat_basic",
+      "size": "5M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 880,
+      "discountable": true
+    },
+    "B5R": {
+      "name": "Basic地墊5M紅",
+      "category": "mat_basic",
+      "size": "5M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 880,
+      "discountable": true
+    },
+    "FFSSK": {
+      "name": "Forever地墊SS黑灰",
+      "category": "mat_forever",
+      "size": "SS",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 140,
+      "discountable": true
+    },
+    "FFSSR": {
+      "name": "Forever地墊SS紅",
+      "category": "mat_forever",
+      "size": "SS",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 140,
+      "discountable": true
+    },
+    "FFSK": {
+      "name": "Forever地墊S黑灰",
+      "category": "mat_forever",
+      "size": "S",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "FFSR": {
+      "name": "Forever地墊S紅",
+      "category": "mat_forever",
+      "size": "S",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "FFSLK": {
+      "name": "Forever地墊SL黑灰",
+      "category": "mat_forever",
+      "size": "SL",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 220,
+      "discountable": true
+    },
+    "FFSLR": {
+      "name": "Forever地墊SL紅",
+      "category": "mat_forever",
+      "size": "SL",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 220,
+      "discountable": true
+    },
+    "FFLK": {
+      "name": "Forever地墊L黑灰",
+      "category": "mat_forever",
+      "size": "L",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "FFLR": {
+      "name": "Forever地墊L紅",
+      "category": "mat_forever",
+      "size": "L",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "FFMK": {
+      "name": "Forever地墊M黑灰",
+      "category": "mat_forever",
+      "size": "M",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 420,
+      "discountable": true
+    },
+    "FFMR": {
+      "name": "Forever地墊M紅",
+      "category": "mat_forever",
+      "size": "M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 420,
+      "discountable": true
+    },
+    "FFXK": {
+      "name": "Forever地墊X黑灰",
+      "category": "mat_forever",
+      "size": "X",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 550,
+      "discountable": true
+    },
+    "FFTK": {
+      "name": "Forever地墊T黑灰",
+      "category": "mat_forever",
+      "size": "T",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 720,
+      "discountable": true
+    },
+    "FF3MK": {
+      "name": "Forever地墊3M黑灰",
+      "category": "mat_forever",
+      "size": "3M",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 610,
+      "discountable": true
+    },
+    "FF5MK": {
+      "name": "Forever地墊5M黑灰",
+      "category": "mat_forever",
+      "size": "5M",
+      "color": "黑灰",
+      "cycle": "2W",
+      "price": 880,
+      "discountable": true
+    },
+    "FF5MR": {
+      "name": "Forever地墊5M紅",
+      "category": "mat_forever",
+      "size": "5M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 880,
+      "discountable": true
+    },
+    "DWSSH": {
+      "name": "吸塵吸水地墊SS灰",
+      "category": "mat_dust",
+      "size": "SS",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "DWSSR": {
+      "name": "吸塵吸水地墊SS紅",
+      "category": "mat_dust",
+      "size": "SS",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "DWSH": {
+      "name": "吸塵吸水地墊S灰",
+      "category": "mat_dust",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 200,
+      "discountable": true
+    },
+    "DWSR": {
+      "name": "吸塵吸水地墊S紅",
+      "category": "mat_dust",
+      "size": "S",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 200,
+      "discountable": true
+    },
+    "DWSLH": {
+      "name": "吸塵吸水地墊SL灰",
+      "category": "mat_dust",
+      "size": "SL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 310,
+      "discountable": true
+    },
+    "DWSLR": {
+      "name": "吸塵吸水地墊SL紅",
+      "category": "mat_dust",
+      "size": "SL",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 310,
+      "discountable": true
+    },
+    "DWLH": {
+      "name": "吸塵吸水地墊L灰",
+      "category": "mat_dust",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 390,
+      "discountable": true
+    },
+    "DWLR": {
+      "name": "吸塵吸水地墊L紅",
+      "category": "mat_dust",
+      "size": "L",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 390,
+      "discountable": true
+    },
+    "DWLLH": {
+      "name": "吸塵吸水地墊LL灰",
+      "category": "mat_dust",
+      "size": "LL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 530,
+      "discountable": true
+    },
+    "DWLLR": {
+      "name": "吸塵吸水地墊LL紅",
+      "category": "mat_dust",
+      "size": "LL",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 530,
+      "discountable": true
+    },
+    "DWXH": {
+      "name": "吸塵吸水地墊X灰",
+      "category": "mat_dust",
+      "size": "X",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 690,
+      "discountable": true
+    },
+    "DWXR": {
+      "name": "吸塵吸水地墊X紅",
+      "category": "mat_dust",
+      "size": "X",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 690,
+      "discountable": true
+    },
+    "DWTH": {
+      "name": "吸塵吸水地墊T灰",
+      "category": "mat_dust",
+      "size": "T",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 940,
+      "discountable": true
+    },
+    "DWTR": {
+      "name": "吸塵吸水地墊T紅",
+      "category": "mat_dust",
+      "size": "T",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 940,
+      "discountable": true
+    },
+    "DW3MH": {
+      "name": "吸塵吸水地墊3M灰",
+      "category": "mat_dust",
+      "size": "3M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 680,
+      "discountable": true
+    },
+    "DW3MR": {
+      "name": "吸塵吸水地墊3M紅",
+      "category": "mat_dust",
+      "size": "3M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 680,
+      "discountable": true
+    },
+    "DW4MH": {
+      "name": "吸塵吸水地墊4M灰",
+      "category": "mat_dust",
+      "size": "4M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 830,
+      "discountable": true
+    },
+    "DW4MR": {
+      "name": "吸塵吸水地墊4M紅",
+      "category": "mat_dust",
+      "size": "4M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 830,
+      "discountable": true
+    },
+    "DW5MH": {
+      "name": "吸塵吸水地墊5M灰",
+      "category": "mat_dust",
+      "size": "5M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 1050,
+      "discountable": true
+    },
+    "DW5MR": {
+      "name": "吸塵吸水地墊5M紅",
+      "category": "mat_dust",
+      "size": "5M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 1050,
+      "discountable": true
+    },
+    "UQSH": {
+      "name": "薄型吸塵吸水地墊S灰",
+      "category": "mat_thin",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 190,
+      "discountable": true
+    },
+    "UQSLH": {
+      "name": "薄型吸塵吸水地墊SL灰",
+      "category": "mat_thin",
+      "size": "SL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "UQLH": {
+      "name": "薄型吸塵吸水地墊L灰",
+      "category": "mat_thin",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 360,
+      "discountable": true
+    },
+    "UQLLH": {
+      "name": "薄型吸塵吸水地墊LL灰",
+      "category": "mat_thin",
+      "size": "LL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 500,
+      "discountable": true
+    },
+    "UQTH": {
+      "name": "薄型吸塵吸水地墊T灰",
+      "category": "mat_thin",
+      "size": "T",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 900,
+      "discountable": true
+    },
+    "UQ4MH": {
+      "name": "薄型吸塵吸水地墊4M灰",
+      "category": "mat_thin",
+      "size": "4M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 730,
+      "discountable": true
+    },
+    "UQ5MH": {
+      "name": "薄型吸塵吸水地墊5M灰",
+      "category": "mat_thin",
+      "size": "5M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 910,
+      "discountable": true
+    },
+    "TJSR": {
+      "name": "豪華地墊S紅",
+      "category": "mat_luxury",
+      "size": "S",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "TJSH": {
+      "name": "豪華地墊S灰",
+      "category": "mat_luxury",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "TJSLR": {
+      "name": "豪華地墊SL紅",
+      "category": "mat_luxury",
+      "size": "SL",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 220,
+      "discountable": true
+    },
+    "TJSLH": {
+      "name": "豪華地墊SL灰",
+      "category": "mat_luxury",
+      "size": "SL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 220,
+      "discountable": true
+    },
+    "TJLR": {
+      "name": "豪華地墊L紅",
+      "category": "mat_luxury",
+      "size": "L",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "TJLH": {
+      "name": "豪華地墊L灰",
+      "category": "mat_luxury",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "TJMR": {
+      "name": "豪華地墊M紅",
+      "category": "mat_luxury",
+      "size": "M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 420,
+      "discountable": true
+    },
+    "TJMH": {
+      "name": "豪華地墊M灰",
+      "category": "mat_luxury",
+      "size": "M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 420,
+      "discountable": true
+    },
+    "TJXR": {
+      "name": "豪華地墊X紅",
+      "category": "mat_luxury",
+      "size": "X",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 550,
+      "discountable": true
+    },
+    "TJXH": {
+      "name": "豪華地墊X灰",
+      "category": "mat_luxury",
+      "size": "X",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 550,
+      "discountable": true
+    },
+    "TJTR": {
+      "name": "豪華地墊T紅",
+      "category": "mat_luxury",
+      "size": "T",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 720,
+      "discountable": true
+    },
+    "TJTH": {
+      "name": "豪華地墊T灰",
+      "category": "mat_luxury",
+      "size": "T",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 720,
+      "discountable": true
+    },
+    "TJ3MR": {
+      "name": "豪華地墊3M紅",
+      "category": "mat_luxury",
+      "size": "3M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 610,
+      "discountable": true
+    },
+    "TJ3MH": {
+      "name": "豪華地墊3M灰",
+      "category": "mat_luxury",
+      "size": "3M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 610,
+      "discountable": true
+    },
+    "TJ5MR": {
+      "name": "豪華地墊5M紅",
+      "category": "mat_luxury",
+      "size": "5M",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 880,
+      "discountable": true
+    },
+    "TJ5MH": {
+      "name": "豪華地墊5M灰",
+      "category": "mat_luxury",
+      "size": "5M",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 880,
+      "discountable": true
+    },
+    "2SN2": {
+      "name": "豪華地墊S紅(2色)",
+      "category": "mat_luxury_2tone",
+      "size": "S",
+      "color": "紅(2色)",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "2SLN2": {
+      "name": "豪華地墊SL紅(2色)",
+      "category": "mat_luxury_2tone",
+      "size": "SL",
+      "color": "紅(2色)",
+      "cycle": "2W",
+      "price": 220,
+      "discountable": true
+    },
+    "2LN2": {
+      "name": "豪華地墊L紅(2色)",
+      "category": "mat_luxury_2tone",
+      "size": "L",
+      "color": "紅(2色)",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "2MN2": {
+      "name": "豪華地墊M紅(2色)",
+      "category": "mat_luxury_2tone",
+      "size": "M",
+      "color": "紅(2色)",
+      "cycle": "2W",
+      "price": 420,
+      "discountable": true
+    },
+    "2TN2": {
+      "name": "豪華地墊T紅(2色)",
+      "category": "mat_luxury_2tone",
+      "size": "T",
+      "color": "紅(2色)",
+      "cycle": "2W",
+      "price": 720,
+      "discountable": true
+    },
+    "EXSG": {
+      "name": "強力刮砂地墊S灰",
+      "category": "mat_strong",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 190,
+      "discountable": true
+    },
+    "EXSH": {
+      "name": "強力刮砂地墊S灰",
+      "category": "mat_strong",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 190,
+      "discountable": true
+    },
+    "EXSLG": {
+      "name": "強力刮砂地墊SL灰",
+      "category": "mat_strong",
+      "size": "SL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "EXSLH": {
+      "name": "強力刮砂地墊SL灰",
+      "category": "mat_strong",
+      "size": "SL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 280,
+      "discountable": true
+    },
+    "EXLG": {
+      "name": "強力刮砂地墊L灰",
+      "category": "mat_strong",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 360,
+      "discountable": true
+    },
+    "EXLH": {
+      "name": "強力刮砂地墊L灰",
+      "category": "mat_strong",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 360,
+      "discountable": true
+    },
+    "ELLG": {
+      "name": "強力刮砂地墊LL灰",
+      "category": "mat_strong",
+      "size": "LL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 500,
+      "discountable": true
+    },
+    "ELLH": {
+      "name": "強力刮砂地墊LL灰",
+      "category": "mat_strong",
+      "size": "LL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 500,
+      "discountable": true
+    },
+    "EXTG": {
+      "name": "強力刮砂地墊T灰",
+      "category": "mat_strong",
+      "size": "T",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 900,
+      "discountable": true
+    },
+    "EXTH": {
+      "name": "強力刮砂地墊T灰",
+      "category": "mat_strong",
+      "size": "T",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 900,
+      "discountable": true
+    },
+    "KKSG": {
+      "name": "鐵屑油污地墊S灰",
+      "category": "mat_metal",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 200,
+      "discountable": true
+    },
+    "KKSH": {
+      "name": "鐵屑油污地墊S灰",
+      "category": "mat_metal",
+      "size": "S",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 200,
+      "discountable": true
+    },
+    "KKSLG": {
+      "name": "鐵屑油污地墊SL灰",
+      "category": "mat_metal",
+      "size": "SL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 310,
+      "discountable": true
+    },
+    "KKSLH": {
+      "name": "鐵屑油污地墊SL灰",
+      "category": "mat_metal",
+      "size": "SL",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 310,
+      "discountable": true
+    },
+    "KKLG": {
+      "name": "鐵屑油污地墊L灰",
+      "category": "mat_metal",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 390,
+      "discountable": true
+    },
+    "KKLH": {
+      "name": "鐵屑油污地墊L灰",
+      "category": "mat_metal",
+      "size": "L",
+      "color": "灰",
+      "cycle": "2W",
+      "price": 390,
+      "discountable": true
+    },
+    "MANSB": {
+      "name": "男女辨識地墊(男)S棕",
+      "category": "mat_gender",
+      "size": "S",
+      "color": "棕",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "MWOSR": {
+      "name": "男女辨識地墊(女)S紅",
+      "category": "mat_gender",
+      "size": "S",
+      "color": "紅",
+      "cycle": "2W",
+      "price": 170,
+      "discountable": true
+    },
+    "AMWT": {
+      "name": "小型擴香芳香系列-白茶",
+      "category": "fragrance",
+      "size": "120ml",
+      "cycle": "4W",
+      "price": 500,
+      "discountable": false
+    },
+    "BF-L": {
+      "name": "BF複方精油芳香系列-檸檬馬鞭草",
+      "category": "fragrance",
+      "size": "240ml",
+      "cycle": "4W",
+      "price": 200,
+      "discountable": false
+    },
+    "DOME": {
+      "name": "網狀尿石去除劑",
+      "category": "urinal",
+      "size": "40g",
+      "cycle": "4W",
+      "price": 200,
+      "discountable": false
+    },
+    "NSAC": {
+      "name": "業務用除塵拖把",
+      "category": "mop",
+      "size": null,
+      "cycle": "4W",
+      "price": 200,
+      "discountable": true
+    },
+    "M-90": {
+      "name": "業務用除塵特大拖把",
+      "category": "mop",
+      "size": "34×120",
+      "cycle": "4W",
+      "price": null,
+      "discountable": true
+    },
+    "S-20": {
+      "name": "業務用握把式抹布",
+      "category": "mop",
+      "size": "18×32",
+      "cycle": "4W",
+      "price": null,
+      "discountable": true
+    },
+    "HPL": {
+      "name": "訂做地墊2色L",
+      "category": "mat_custom",
+      "size": "L",
+      "color": "2色",
+      "cycle": "2W",
+      "price": 360,
+      "discountable": false,
+      "contractYears": 4,
+      "note": "訂製品，合約期間為 4 年"
+    },
+    "HPS": {
+      "name": "訂做地墊2色S",
+      "category": "mat_custom",
+      "size": "S",
+      "color": "2色",
+      "cycle": "2W",
+      "price": 230,
+      "discountable": false,
+      "contractYears": 4,
+      "note": "訂製品，合約期間為 4 年"
+    }
+  }
+}

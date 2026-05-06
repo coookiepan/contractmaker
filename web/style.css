@@ -402,6 +402,22 @@ button {
   color: var(--primary);
 }
 
+.modal-header .btn-ghost {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.modal-content > .btn-secondary {
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+
 #product-search {
   width: 100%;
   padding: 10px 12px;

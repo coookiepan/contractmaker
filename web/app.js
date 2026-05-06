@@ -116,8 +116,17 @@ function bindEvents() {
   });
 
   document.getElementById('template-close').addEventListener('click', closeTemplateModal);
+  document.getElementById('template-close-bottom').addEventListener('click', closeTemplateModal);
   document.getElementById('template-modal').addEventListener('click', (e) => {
     if (e.target.id === 'template-modal') closeTemplateModal();
+  });
+
+  // ESC 鍵關閉彈窗
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeProductModal();
+      closeTemplateModal();
+    }
   });
 }
 

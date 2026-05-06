@@ -1,0 +1,21 @@
+{
+  "client": "德匠高爾夫俱樂部股份有限公司",
+  "version": "基礎版",
+  "date": "2026/04/22",
+  "displayCycle": "4W",
+  "areas": [
+    {
+      "name": "VIP 區",
+      "items": [
+        { "code": "EXLH", "qty": 1, "loc": "VIP門" },
+        { "code": "DOME", "qty": 1, "loc": "VIP廁所" }
+      ]
+    },
+    {
+      "name": "大廳",
+      "items": [
+        { "code": "GLH", "qty": 2, "loc": "大門口" }
+      ]
+    }
+  ]
+}

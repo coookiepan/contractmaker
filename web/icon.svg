@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#1f4e79"/>
+  <text x="256" y="190" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Microsoft JhengHei',sans-serif" font-size="92" font-weight="700" fill="#ffffff">DUSKIN</text>
+  <text x="256" y="320" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Microsoft JhengHei',sans-serif" font-size="120" font-weight="700" fill="#ffe699">報價</text>
+  <text x="256" y="430" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Microsoft JhengHei',sans-serif" font-size="50" font-weight="500" fill="#ffffff" opacity="0.8">樂清服務</text>
+</svg>

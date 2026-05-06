@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="theme-color" content="#1f4e79">
+<title>DUSKIN 報價產生器</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>DUSKIN 報價產生器</h1>
+  <div class="topbar-actions">
+    <button type="button" id="btn-load" class="btn-ghost" title="讀取已儲存">讀取</button>
+    <button type="button" id="btn-save-as" class="btn-ghost" title="另存為">另存</button>
+    <button type="button" id="btn-clear" class="btn-ghost" title="清空">清空</button>
+  </div>
+</header>
+
+<main>
+  <!-- 客戶資料 -->
+  <section class="card">
+    <h2>客戶資料</h2>
+    <label>客戶名稱 <span class="req">*</span>
+      <input type="text" id="client" required placeholder="例：德匠高爾夫俱樂部">
+    </label>
+    <div class="row">
+      <label class="flex-2">版本（檔名後綴）
+        <input type="text" id="version" placeholder="基礎版 / 一年方案 ...">
+      </label>
+      <label class="flex-1">日期 <span class="req">*</span>
+        <input type="text" id="date" required placeholder="2026/05/06">
+      </label>
+    </div>
+    <div class="row">
+      <label class="flex-1">統一編號
+        <input type="text" id="taxId" inputmode="numeric" placeholder="可選">
+      </label>
+      <label class="flex-1">聯絡人
+        <input type="text" id="contact" placeholder="可選">
+      </label>
+    </div>
+    <label>客戶電話
+      <input type="text" id="customerPhone" placeholder="可選">
+    </label>
+    <label>客戶地址
+      <input type="text" id="customerAddress" placeholder="可選">
+    </label>
+  </section>
+
+  <!-- 全域設定 -->
+  <section class="card">
+    <h2>全域設定</h2>
+    <div class="row">
+      <label class="flex-1">顯示週期
+        <select id="displayCycle">
+          <option value="">隨商品（混合）</option>
+          <option value="2W">2W</option>
+          <option value="4W" selected>4W（月單價）</option>
+        </select>
+      </label>
+      <label class="flex-1">整體折扣（0~1）
+        <input type="number" id="discount" step="0.01" min="0" max="1" placeholder="例：0.8 = 8 折">
+      </label>
+    </div>
+    <div class="checkbox-row">
+      <label><input type="checkbox" id="roundTotalToHundred"> 總額向上取整百</label>
+      <label><input type="checkbox" id="showLocation" checked> 顯示位置欄</label>
+      <label><input type="checkbox" id="showStamp" checked> 顯示核章區</label>
+      <label><input type="checkbox" id="showCustomerNumber" checked> 顯示統編</label>
+    </div>
+  </section>
+
+  <!-- 區域與品項 -->
+  <section class="card">
+    <h2>區域與品項</h2>
+    <div id="areas"></div>
+    <button type="button" id="btn-add-area" class="btn-secondary">＋ 新增區域</button>
+  </section>
+
+  <!-- 額外備註 -->
+  <section class="card">
+    <h2>額外備註</h2>
+    <textarea id="extraNotes" rows="3" placeholder="一行一條，可空白"></textarea>
+  </section>
+
+  <!-- 動作 -->
+  <section class="card actions-card">
+    <button type="button" id="btn-preview" class="btn-secondary">📋 預覽</button>
+    <button type="button" id="btn-download" class="btn-primary">📥 下載 Word</button>
+  </section>
+
+  <!-- 預覽輸出 -->
+  <section class="card" id="preview-card" hidden>
+    <h2>預覽</h2>
+    <pre id="preview-output"></pre>
+  </section>
+</main>
+
+<!-- 商品選擇彈窗 -->
+<div id="product-modal" class="modal" data-modal-backdrop>
+  <div class="modal-content">
+    <header class="modal-header">
+      <h2>選擇商品</h2>
+      <button type="button" id="modal-close" class="btn-ghost" data-close-modal="product-modal" aria-label="關閉">✕</button>
+    </header>
+    <input type="search" id="product-search" placeholder="搜尋商品名稱 / 代號 ..." autocomplete="off">
+    <div id="product-list" class="product-list"></div>
+  </div>
+</div>
+
+<!-- 範本選單 -->
+<div id="template-modal" class="modal" data-modal-backdrop>
+  <div class="modal-content">
+    <header class="modal-header">
+      <h2>讀取已儲存範本</h2>
+      <button type="button" id="template-close" class="btn-ghost" data-close-modal="template-modal" aria-label="關閉">✕</button>
+    </header>
+    <div id="template-list" class="template-list"></div>
+    <button type="button" id="template-close-bottom" class="btn-secondary" data-close-modal="template-modal">關閉</button>
+  </div>
+</div>
+
+<!-- 訊息提示 -->
+<div id="toast" class="toast" hidden></div>
+
+<!-- docx UMD bundle (browser) -->
+<script src="https://unpkg.com/docx@8.5.0/build/index.umd.js"></script>
+<script src="../engine.js"></script>
+<script src="../builders/quote.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

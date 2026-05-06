@@ -21,15 +21,36 @@ duskin_engine/
     └── lianshang_year.json
 ```
 
-## 安裝
+## 兩種使用方式
+
+### A. 網頁版（手機 / 平板 / 電腦皆可，推薦）
+
+`web/` 是純靜態 PWA，**不需安裝任何東西**，瀏覽器開即用。可直接從手機操作、產出 Word 並下載。
+
+**部署到 GitHub Pages：**
+1. 推到 GitHub
+2. Settings → Pages → Source: `Deploy from a branch` → `main` (或目前分支) → `/ (root)`
+3. 等 1 分鐘後，網址會是 `https://<你的帳號>.github.io/contractmaker/web/`
+4. 用手機開那個網址 → Safari 「加入主畫面」 / Chrome「安裝應用程式」 → 變成桌面 icon，可離線使用
+
+**本地測試（電腦）：**
+```bash
+npx http-server -p 8080
+# 開 http://localhost:8080/web/
+```
+（不能用 `file://` 直開，瀏覽器會擋 fetch）
+
+**功能：**
+- 動態新增 / 刪除「區域」與「品項」
+- 商品搜尋彈窗（120 個商品分類顯示）
+- 文字預覽 + 下載 Word
+- 草稿自動存 localStorage（重開不會丟）
+- 多客戶範本另存為 / 載入
+
+### B. CLI 版（電腦 / 自動化）
 
 ```bash
 npm install
-```
-
-## 使用
-
-```bash
 node main.js clients/dejiang_base.json --pdf
 node test.js     # 文字預覽全部客戶
 ```

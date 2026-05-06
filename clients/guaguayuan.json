@@ -1,0 +1,10 @@
+{
+  "client": "瓜瓜園地瓜生態故事館",
+  "date": "2026/04/29",
+  "areaName": "商品明細",
+  "displayCycle": "4W",
+  "items": [
+    { "code": "FFLK", "qty": 2, "priceOverride": 400 }
+  ],
+  "showLocation": false
+}
